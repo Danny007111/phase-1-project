@@ -1,0 +1,39 @@
+body{
+    text-align: center;
+}
+
+
+.column {
+    float: left;
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    border-style: double;
+    border-color: rgb(31, 100, 228);
+
+  }
+
+.column:hover {
+    border-color: rgb(228, 31, 225);
+}
+
+
+
+.usStates {
+    display: inline-block;
+  
+}
+
+.container {
+    display: inline;
+    padding: 20px;
+}
+
+.results {
+    display: inline-block;
+    
+}
+
+
+

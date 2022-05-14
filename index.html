@@ -9,12 +9,36 @@
     <title>Phase-1 Project</title>
 </head>
 <body>
-    <h1>Phase-1 Project</h1>
+    <h1>Weather Forecasts</h1>
+    <h5>Phase-1 Weather Project</h5>
+    <p>
+        In this weather app you could select the state you will like to know the current weather, or write down the state you wish to search for (it also accepts cities).
+    </p>
+
+    <!-- //////////////////////////////////////////// -->
+    
+    <div class="usStates">
+        <!-- Each state(div) goes here -->
+    </div>
+
+    <!-- //////////////////////////////////////////// -->
+
     <div class="container">
-
+        <!-- Add an event listener for form(submit) -->
+        <form>
+            <input type="text" id="info">
+            <input type="submit" value="Submit" id="sbutton">
+        </form>
     </div>
+
+    <!-- //////////////////////////////////////////// -->
+    
     <div class="results">
+        <h4>Results:</h4>
+        <ol id="res">
 
+        </ol>
     </div>
+    
 </body>
 </html>
