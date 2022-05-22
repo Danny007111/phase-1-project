@@ -2,27 +2,24 @@ body{
     text-align: center;
 }
 
-
 .column {
     float: left;
-    padding: 10px;
+    padding: .9%;
     text-align: center;
     font-size: 25px;
     cursor: pointer;
     border-style: double;
     border-color: rgb(31, 100, 228);
-
   }
 
 .column:hover {
     border-color: rgb(228, 31, 225);
 }
 
-
-
 .usStates {
-    display: inline-block;
-  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 6px 1em;
 }
 
 .container {
@@ -32,7 +29,6 @@ body{
 
 .results {
     display: inline-block;
-    
 }
 
 
