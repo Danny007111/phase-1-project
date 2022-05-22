@@ -1,5 +1,10 @@
 body{
+    height: 100%;
+    position: relative;
     text-align: center;
+    background-color: rgb(152, 213, 238);
+
+
 }
 
 .column {
@@ -28,8 +33,6 @@ body{
 }
 
 .results {
+    height: 100%;
     display: inline-block;
 }
-
-
-
